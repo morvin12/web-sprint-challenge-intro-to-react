@@ -2,6 +2,18 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import Character from './components/Character';
+import styled from 'styled-components';
+
+const H1 = styled.h1`
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+text-transform: uppercase;
+text-shadow: -15px 5px 20px;
+font-size: 3rem;
+margin-bottom: 15%;
+`
 
 
 const App = () => {
@@ -25,7 +37,7 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <H1 className="Header">StarWars Characters</H1>
       {character.map(char => <Character character={char} key={character.url} />)}
     </div>
   );
