@@ -34,7 +34,7 @@ function Character(props) {
     return (
         <Card>
             <H2>{props.character.name}</H2>
-                <p>{props.character.name} has a gender of: {props.character.gender} who has a height of: {props.character.height}. {props.character.name} was born is the year of {props.character.birth_year}. {props.character.name} has made an appearance in film(s): {props.character.films}.</p>
+                <p>{props.character.name} has a gender of: {props.character.gender} who has a height of: {props.character.height}. Born is the year of {props.character.birth_year}.Made an appearance in film(s): {props.character.films}.</p>
          </Card>
     )
 
