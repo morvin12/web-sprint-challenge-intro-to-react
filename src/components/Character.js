@@ -5,10 +5,6 @@ import styled from "styled-components";
 
 
 const Card = styled.div`
-/* display: center; */
-/* flex-wrap: wrap; */
-/* width: 30%; */
-/* justify-content: space-evenly; */
 margin-top: 20px;
 align-items: center;
 padding: 20px;
@@ -34,7 +30,7 @@ function Character(props) {
     return (
         <Card>
             <H2>{props.character.name}</H2>
-                <p>{props.character.name} has a gender of: {props.character.gender} who has a height of: {props.character.height}. Born is the year of {props.character.birth_year}.Made an appearance in film(s): {props.character.films}.</p>
+                <p>Has a gender of: {props.character.gender}. Has a height of: {props.character.height}. Born in the year of {props.character.birth_year}. Character has made an appearance in film(s): {props.character.films}.</p>
          </Card>
     )
 
