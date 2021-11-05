@@ -26,9 +26,7 @@ useEffect(() => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      {character.map((char, index) => {
-        return <Character key={index} character={char} />
-      })}
+      {character.map(char => <Character character={char} key={character.url} />)}
     </div>
   );
 }

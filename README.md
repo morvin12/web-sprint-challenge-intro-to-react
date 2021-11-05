@@ -79,6 +79,13 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- React creates composable user interfaces with reusable components that react to data changes. Instead of working with templates or HTML directives, React components call a render method that produces a string of markup, then injects this directly into your document. Whenever the data changes, React calls a new render method. React.js solves problems of better handling of dynamic data for faster response times.
+
 1. Describe component state.
+- It is used to store information about the component that can change over time. Typically the change comes as a result of user events or system events.
+
 1. Describe props.
+- props are used to pass data from a parent component to a child component in React and they are the main mechanism for component communication.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+- Side effects are basically anything that affects something outside of the scope of the current function that's being executed. The Effect Hook lets you perform side effects in function components
