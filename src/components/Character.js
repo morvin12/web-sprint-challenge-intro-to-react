@@ -5,17 +5,18 @@ import styled from "styled-components";
 
 
 const Card = styled.div`
-display: center;
-flex-wrap: wrap;
-width: 30%;
-justify-content: space-evenly;
-margin-top: 30px;
+/* display: center; */
+/* flex-wrap: wrap; */
+/* width: 30%; */
+/* justify-content: space-evenly; */
+margin-top: 20px;
 align-items: center;
 padding: 20px;
 background-color: gold;
 color: black;
-margin: 5%;
+margin: 7%;
 border-radius: 6px;
+grid-template-columns: 60px 60px;
 `
 const H2 = styled.h2`
 display: flex;

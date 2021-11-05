@@ -12,7 +12,7 @@ position: relative;
 text-transform: uppercase;
 text-shadow: -15px 5px 20px;
 font-size: 3rem;
-margin-bottom: 15%;
+margin-bottom: 10%;
 `
 
 
